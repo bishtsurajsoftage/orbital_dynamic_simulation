@@ -1,0 +1,13 @@
+name: orbitpy
+dependencies:
+  - python=3.5 # 2.7 if you are feeling nostalgic
+  - numpy
+  - pandas
+  - scipy
+  - astropy
+  - matplotlib
+  - numba
+  - pip:
+    - poliastro
+    - jupyter
+    - spiceypy
